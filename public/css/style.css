@@ -1,0 +1,16 @@
+/* img display ejs file */
+.container img{
+    box-shadow: 10px 10px 10px grey;
+    height: 500px;
+    width: 600px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+
+.imgdisplay-container{
+   display: flex;
+   flex-wrap: wrap;
+    
+
+}

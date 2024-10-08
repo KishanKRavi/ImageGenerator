@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= imageKey %></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="imgdisplay-container">
+    <% let counter %>
+    <%  for(link of links){ %>
+        <% if (counter >= 6){break;} %>
+            <div class="container">
+                <img src="<%= link %>" alt="image of <%= imageKey %>"  >
+            </div>
+        <% counter++; %> 
+    <%}%>
+
+</body>
+</html>
