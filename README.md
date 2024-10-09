@@ -1,1 +1,1 @@
-#﻿image generator
+image generator
