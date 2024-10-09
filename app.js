@@ -28,7 +28,7 @@ app.get("/home/generateImage",(req,res)=>{
     const startingURL = 'https://api.unsplash.com/search/photos?query=';
     const endingURL = '&client_id=';
     fetch(startingURL+imageKey+endingURL+apiKey)
-    // 'https://api.unsplash.com/search/photos?query=nature&client_id=xDi4yT0aLdSLvwwi_TtU_g4j_bk6lUhPknJmmT0PftA'
+    
     .then(response => response.json())
     .then(data => {
       // Handle data here
