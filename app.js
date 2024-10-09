@@ -31,8 +31,6 @@ app.get("/home/generateImage",(req,res)=>{
     
     .then(response => response.json())
     .then(data => {
-      // Handle data here
-      // console.log(data[links]);
       const links = [];
       data.results.forEach(photo => {
           console.log(photo.urls.small);
