@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Generator  </title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <form action="/home/generateImage" method="get" >
-        <input type="text" id="imgTxt" name="imageKey">
-        <button>search</button>
-    </form>
+    <h1>
+        <% for(char of "Image Generator" ) { %>
+            <span class="key"><%=char%></span>
+        <%}%>
+    </h1>
+    <div class="imgdisplay-container" style="height: 0px !important;">
+        <form action="/home/generateImage" method="get"  id="content">
+            <input class="input" type="text" id="imgTxt" name="imageKey" placeholder="Search image by Keywords"   required>
+            <button class="button">search</button> <br><br><br><br><br><br><br>
+        </form>
+    </div>
+
+    
+    
 </body>
 </html>

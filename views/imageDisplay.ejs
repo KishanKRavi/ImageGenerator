@@ -6,15 +6,29 @@
     <title><%= imageKey %></title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
-<body class="imgdisplay-container">
-    <% let counter %>
-    <%  for(link of links){ %>
-        <% if (counter >= 6){break;} %>
-            <div class="container">
-                <img src="<%= link %>" alt="image of <%= imageKey %>"  >
-            </div>
-        <% counter++; %> 
-    <%}%>
 
+<body >
+    <form action="/home" method="get">
+        <button class="button"><-- Go back</button>
+    </form>
+    <h1>
+        <% for(char of "Images  of  "+imageKey) { %>
+            <span class="key" ><%=char%></span>
+        <%}%>
+    </h1>
+
+    <hr><br><br>
+ 
+    <div class="imgdisplay-container">
+        <%  for(link of links){ %>
+            <div class="container">
+                <a href="<%= link %>" ><img src="<%= link %>" alt="image of <%= imageKey %>" id="<%= link %>"  > </a>
+            </div>
+        <%}%>
+    </div>
+
+    
+   
+    <script src="/js/script.js"></script>
 </body>
 </html>

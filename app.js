@@ -8,12 +8,15 @@ app.set("views",path.join(__dirname,"views"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
+// app.get("*",(req,res)=>{
+//     res.send(`<h1> hiii You are here ! </h1> <br> If you are in search of image generator webpage ,  please click  <a href="/home">here</a>`);
+// })        
 app.get("/",(req,res)=>{
-    res.send("<h1> hiii You are here ! </h1>");
-})
+    res.send(`<h1> hiii You are here ! </h1> <br> If you are in search of image generator webpage ,  please click  <a href="/home">here</a>`);
+})                                                                                                                                                                                                                       
 
 app.get("/home",(req,res)=>{
-    res.render("home");
+    res.render("home.ejs");
 });
 
 app.get("/home/generateImage",(req,res)=>{
@@ -28,11 +31,8 @@ app.get("/home/generateImage",(req,res)=>{
     const startingURL = 'https://api.unsplash.com/search/photos?query=';
     const endingURL = '&client_id=';
     fetch(startingURL+imageKey+endingURL+apiKey)
-    // 'https://api.unsplash.com/search/photos?query=nature&client_id=xDi4yT0aLdSLvwwi_TtU_g4j_bk6lUhPknJmmT0PftA'
     .then(response => response.json())
     .then(data => {
-      // Handle data here
-      // console.log(data[links]);
       const links = [];
       data.results.forEach(photo => {
           console.log(photo.urls.small);
