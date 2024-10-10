@@ -1,35 +1,24 @@
-# Project_______imageGenerator
-Generates the images which will be searched according to the keywords.
+# ImageGenerator
 
+**ImageGenerator** is a Node.js-based web application that generates images based on search keywords. It utilizes the [Unsplash API](https://unsplash.com/developers) to fetch and display high-quality images.
 
+---
 
-___________________________________________
+## Features
+- Search and display images by keywords
+- Simple and clean interface
+- Utilizes the Unsplash API for high-resolution images
 
-# HowToRun
-```
-install node , 
-Get the access_key as mentioned below,
-and open command prompt and run the command "node app.js" 
-then go to browser search "localhost:3000" ,the page will be hosted
-```
+---
 
-___________________________________________
+## How to Run
 
-# howToGetAccessKey
+Follow these steps to set up and run the project:
 
-Step 1:Register and login to the unsplash website ```https://unsplash.com/developers ``` ,
-Step 2:click on "your apps" option ,
-Step 3:click on "new application",
-Step 4:Accept the api usage and guidelines, 
-Step 5:type the information asked,
-Step 6:copy and paste the access_key in .env file of the project,
+1. **Install Node.js**:  
+   Ensure Node.js is installed on your system. You can download it from [here](https://nodejs.org/).
 
-
-
-
-
-___________________________________________
-
-
-
-~KishanKRavi
+2. **Clone the repository**:  
+   ```bash
+   git clone <repository-url>
+   cd imageGenerator
