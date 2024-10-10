@@ -39,9 +39,9 @@ Follow these steps to set up and run the project:
    Visit the [Unsplash Developers](https://unsplash.com/developers) page, and create an account if you don’t have one.
    
 2. **Create a new application**:
-   -After logging in, go to Your Apps.
-   -Click New Application.
-   -Accept the API guidelines and fill in the required details.
+   - After logging in, go to Your Apps.
+   - Click New Application.
+   - Accept the API guidelines and fill in the required details.
    
 3. **Get the Access Key**:
    After creating the application, you'll be given an *access_key*.
