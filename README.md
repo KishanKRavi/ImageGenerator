@@ -33,7 +33,7 @@ Follow these steps to set up and run the project:
 5. **Open in browser**:
    Open your browser and go to:.
    ``` http://localhost:3000/home ```.
-
+____
 ## How to Get Access Key
 1. **Register on Unsplash**:
    Visit the [Unsplash Developers](https://unsplash.com/developers) page, and create an account if you don’t have one.
@@ -56,7 +56,7 @@ Follow these steps to set up and run the project:
    ACCESS_KEY=your_access_key_here
    ```
 
-
+____
 ## Technologies Used
    - Node.js: Server-side JavaScript runtime.
    
