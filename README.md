@@ -56,11 +56,13 @@ Follow these steps to set up and run the project:
    ```
 
 
-## Technologies Used
-   -Node.js: Server-side JavaScript runtime
-   -Express.js: Web framework for Node.js
-   -EJS: Embedded JavaScript templating
-   -Unsplash API: Image provider API
+## Technologies Used :
+   -Node.js: Server-side JavaScript runtime.
+   
+   -Express.js: Web framework for Node.js.
+   
+   -EJS: Embedded JavaScript templating.
+   -Unsplash API: Image provider API.
 
 
 ------------------------------------------------------------------
