@@ -3,7 +3,7 @@ Generates the images which will be searched according to the keywords.
 
 
 
-==========================================
+___________________________________________
 
 # HowToRun
 get the accesskey as mentioned below,
@@ -11,7 +11,7 @@ and open command prompt and run the command "node app.js"
 then go to browser search "localhost:3000" ,the page will be hosted
 
 
-
+___________________________________________
 
 # howToGetAccessKey
 register and login to the unstop https://unsplash.com/developers  ,
@@ -26,4 +26,7 @@ copy and paste the access_key in .env file of the project.
 
 
 ___________________________________________
+
+
+
 ~KishanKRavi
