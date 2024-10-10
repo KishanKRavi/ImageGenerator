@@ -14,7 +14,7 @@ ensure that all the npm packages are installed which are required in app.js file
 
 
 # howToGetAccessKey
-login to the unstop https://unsplash.com/developers  ,
+regiister and login to the unstop https://unsplash.com/developers  ,
 click on "your apps" option ,
 type the information asked and paste the access_key in .env file.
 
