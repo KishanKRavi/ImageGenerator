@@ -6,6 +6,7 @@ Generates the images which will be searched according to the keywords.
 ___________________________________________
 
 # HowToRun
+Firstly install node
 Get the accesskey as mentioned below,
 and open command prompt and run the command "node app.js" 
 then go to browser search "localhost:3000" ,the page will be hosted
