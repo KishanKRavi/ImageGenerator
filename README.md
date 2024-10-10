@@ -20,5 +20,13 @@ Follow these steps to set up and run the project:
 
 2. **Clone the repository**:  
    ```bash
-   git clone <repository-url>
-   cd imageGenerator
+   git clone https://github.com/KishanKRavi/ImageGenerator.git
+   ```
+
+
+
+
+
+
+
+   
