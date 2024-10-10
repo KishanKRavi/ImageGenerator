@@ -36,33 +36,33 @@ Follow these steps to set up and run the project:
 
 ## How to Get Access Key
 1.**Register on Unsplash**:
-Visit the [Unsplash Developers](https://unsplash.com/developers) page, and create an account if you don’t have one.
+   Visit the [Unsplash Developers](https://unsplash.com/developers) page, and create an account if you don’t have one.
 2. **Create a new application**:
 
--After logging in, go to Your Apps.
--Click New Application.
--Accept the API guidelines and fill in the required details.
+   -After logging in, go to Your Apps.
+   -Click New Application.
+   -Accept the API guidelines and fill in the required details.
 3.**Get the Access Key**:
-After creating the application, you'll be given an *access_key*.
+   After creating the application, you'll be given an *access_key*.
 4.**Configure your project**:
 
-Copy the  *access key*.
-Paste it into the *.env* file in the project 
-```
-bash
-ACCESS_KEY=your_access_key_here
-```
+   Copy the  *access key*.
+   Paste it into the *.env* file in the project 
+   ```
+   bash
+   ACCESS_KEY=your_access_key_here
+   ```
 
 
 ## Technologies Used
--Node.js: Server-side JavaScript runtime
--Express.js: Web framework for Node.js
--EJS: Embedded JavaScript templating
--Unsplash API: Image provider API
+   -Node.js: Server-side JavaScript runtime
+   -Express.js: Web framework for Node.js
+   -EJS: Embedded JavaScript templating
+   -Unsplash API: Image provider API
 
 
 ------------------------------------------------------------------
-~KishanKRavi
+   ~KishanKRavi
 
 
 
