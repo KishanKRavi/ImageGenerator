@@ -8,12 +8,11 @@ app.set("views",path.join(__dirname,"views"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-// app.get("*",(req,res)=>{
-//     res.send(`<h1> hiii You are here ! </h1> <br> If you are in search of image generator webpage ,  please click  <a href="/home">here</a>`);
-// })        
+     
 app.get("/",(req,res)=>{
     res.send(`<h1> hiii You are here ! </h1> <br> If you are in search of image generator webpage ,  please click  <a href="/home">here</a>`);
-})                                                                                                                                                                                                                       
+})       
+
 
 app.get("/home",(req,res)=>{
     res.render("home.ejs");
@@ -22,7 +21,7 @@ app.get("/home",(req,res)=>{
 app.get("/home/generateImage",(req,res)=>{
 
     require('dotenv').config();
-    let apiKey = process.env.UNSPLASH_API_KEY;
+    let apiKey = process.env.ACCESS_KEY;
 
     console.log(apiKey);
 
@@ -50,7 +49,9 @@ app.get("/home/generateImage",(req,res)=>{
 })
 
 
-
+app.get("*",(req,res)=>{
+    res.send(`<h1> hiii You are here ! </h1> <br> If you are in search of image generator webpage ,  please click  <a href="/home">here</a>`);
+})   
 
 
 app.listen("3000",()=>{
