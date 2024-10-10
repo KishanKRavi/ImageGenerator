@@ -11,11 +11,21 @@
     <form action="/home" method="get">
         <button class="button"><-- Go back</button>
     </form>
+
+    <div class="imgdisplay-container" style="height: 0px !important;">
+        <form action="/home/generateImage" method="get"  id="content">
+            <input style="margin-top: 20vh;" class="input" type="text" id="imgTxt" name="imageKey" placeholder="Search image by Keywords"   required>
+            <button class="button" style="margin-bottom:20vh !important;">search</button> 
+
+        </form>
+    </div>
+    <br><br><br><br><br>
     <h1>
         <% for(char of "Images  of  "+imageKey) { %>
             <span class="key" ><%=char%></span>
         <%}%>
     </h1>
+    
 
     <hr><br><br>
  

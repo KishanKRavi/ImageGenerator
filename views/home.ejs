@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <h1>
+    <h1 style="margin-bottom: 100px !important;">
         <% for(char of "Image Generator" ) { %>
             <span class="key"><%=char%></span>
         <%}%>
@@ -15,9 +15,10 @@
     <div class="imgdisplay-container" style="height: 0px !important;">
         <form action="/home/generateImage" method="get"  id="content">
             <input class="input" type="text" id="imgTxt" name="imageKey" placeholder="Search image by Keywords"   required>
-            <button class="button">search</button> <br><br><br><br><br><br><br>
+            <button class="button">search</button>
         </form>
     </div>
+    
 
     
     
