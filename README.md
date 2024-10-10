@@ -51,7 +51,9 @@ Follow these steps to set up and run the project:
    Copy the  *access key*.
    Paste it into the *.env* file in the project 
    ```
-   .env 
+   .env file
+
+   
    ACCESS_KEY=your_access_key_here
    ```
 
