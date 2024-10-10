@@ -7,8 +7,8 @@ Generates the images which will be searched according to the keywords.
 
 # HowToRun
 get the accesskey as mentioned below,
-and open command prompt in your system and type "node app.js"
-ensure that all the npm packages are installed which are required in app.js file..
+and open command prompt and run the command "node app.js" 
+then go to browser search for "localhost:3000"
 
 
 
